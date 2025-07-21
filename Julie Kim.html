@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>EUTO INC.</title>
+  <!-- Google Fonts: Noto Sans -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Noto Sans', sans-serif;
+      background: #fffef9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+      color: #A14743;
+    }
+    h2 {
+      font-size: 1.1rem;
+      font-weight: normal;
+      color: #A14743;
+      margin-bottom: 30px;
+    }
+    iframe, .intro {
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+      display: block;
+      border: none;
+    }
+    iframe {
+      height: 340px;
+    }
+    .intro {
+      background: rgba(255, 255, 255, 0.9);
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+      text-align: left;
+      position: relative;
+      overflow: hidden;
+    }
+    .intro::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 6px;
+      height: 100%;
+      background-color: #A14743;
+      border-radius: 12px 0 0 12px;
+    }
+    .name-title {
+      display: flex;
+      align-items: baseline;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    .name {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: #222;
+    }
+    .title {
+      font-size: 0.9rem;
+      color: #666;
+      font-weight: normal;
+    }
+    .contact-info {
+      margin-left: 10px;
+      line-height: 1.6;
+    }
+    .email-button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 20px;
+      background-color: #A14743;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 0.95rem;
+      transition: background-color 0.3s ease;
+    }
+    .email-button:hover {
+      background-color: #823732;
+    }
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1rem;
+      }
+      iframe {
+        height: 200px;
+      }
+      .intro {
+        font-size: 0.95rem;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>EUTO INC.</h1>
+    <h2>made in earth. terra-cotta EUTO</h2>
+
+    <!-- 유튜브 영상 1 -->
+    <iframe src="https://www.youtube.com/embed/RMrhWrNGQEk" allowfullscreen></iframe>
+
+    <!-- 유튜브 영상 2 -->
+    <iframe src="https://www.youtube.com/embed/lW87BGJy74M" allowfullscreen></iframe>
+
+    <!-- 고급 명함 스타일 자기소개 -->
+    <div class="intro">
+      <div class="name-title">
+        <span class="name">Julie Kim</span>
+        <span class="title">General Director</span>
+      </div>
+      <div class="contact-info">
+        Mobile: +82-10-2667-3037<br>
+        E-mail: euto.julie@gmail.com / plus@eutoplus.com<br>
+        Website: <a href="http://www.eutoplus.com" target="_blank">www.eutoplus.com</a><br>
+        Address: 19700 S. Vermont Ave. Suite #200 Torrance CA 90502 U.S.A.
+      </div>
+      <a href="mailto:euto.julie@gmail.com" class="email-button">Send Email</a>
+    </div>
+  </div>
+</body>
+</html>
